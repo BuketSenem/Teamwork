@@ -1,3 +1,117 @@
 *{
-    
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    border-bottom: solid #ff315d 4px;
+    background-color: #6e6e6e ;
+}
+
+span{
+    color: #ff315d;
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    word-spacing: 0.4rem;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav.banner{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-title{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+}
+
+.banner-h1{
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+
+.banner-h3{
+    font-size: 1.3rem ;
+    color: #ffffff;
+}
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6e6e6e;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.feedback p{
+    color: #ffffff ;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+div.feedback section{
+    margin: 1.5rem;
+}
+
+#e-mail{
+    height: 2rem;
+}
+
+#submit-button{
+    height: 2rem;
+    width: 6rem;
+    background-color: #ff7b24;
+    border: none;
+}
+
+.zone{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    text-align: center;
+    flex-wrap: wrap;
+    min-height: 35vh;
+}
+
+.zone section div img{
+    width: 150px;
+    height: 100%; 
+    object-fit: cover;   
 }
