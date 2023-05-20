@@ -185,3 +185,78 @@ div.text-2{
 div.text-2 p{
     font-size: 1.1rem;
 }
+
+div.service{
+    display: flex;
+    justify-content: space-around;
+    min-height: 90vh;
+    padding: 2rem;
+}
+
+.service-block{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem ;
+}
+
+div.service-title p.service-title2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.service-1{
+    padding: 2rem;
+    background-color: #ebebeb;
+    margin-top: 1rem;
+}
+
+.service-1 p.service-text{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.service-1 p{
+    margin-top: 0.3rem;
+}
+
+div.quote{
+    margin-top: 3rem;
+    margin-right: 11rem;
+    background-color: #ebebeb;
+    width: 30rem;
+    height: 35rem;
+}
+
+div.quote p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+div.quote form{
+    padding: 1rem;
+}
+
+div.quote section{
+    padding: 1rem;
+}
+
+div.quote section input{
+    width: 25rem;
+    height: 2rem;
+}
+
+div.quote textarea{
+    width: 25rem;
+    margin-top: 1rem;
+}
+
+div.quote input#send-button{
+    margin-left: 1rem;
+    width: 4rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    background-color:rgb(100, 100, 100) ;
+    color: #ffffff;
+}
