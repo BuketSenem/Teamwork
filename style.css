@@ -170,6 +170,18 @@ div.text-1 p.third-text{
     padding: 1rem;
 }
 
+div.text-2 p.fifth-text{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 div.text-2{
-    
+    padding: 2rem;
+    background-color: #6e6e6e;
+    color: #ffffff;
+    height: 12rem;
+}
+
+div.text-2 p{
+    font-size: 1.1rem;
 }
