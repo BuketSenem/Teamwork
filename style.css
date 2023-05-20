@@ -143,3 +143,33 @@ footer div img{
     width: 200px;
     object-fit: cover;
 }
+
+div.about{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 1rem 4.5rem;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+
+div.text-1{
+    font-size: 1.1rem;
+}
+
+div.text-1 p.first-text{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+div.text-1 p.third-text{
+    margin-top: 1rem;
+    background-color: #6e6e6e;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+div.text-2{
+    
+}
